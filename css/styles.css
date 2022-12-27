@@ -1,19 +1,28 @@
 body{
     background-color: #eaf6f6;
   }
-  hr{
-    border-style: none;
-    border-top-style: dotted;
-    border-color:grey;
-    border-width: 5px;
-    width: 5%;
-  }
-  h1{
-    color: #66bfbf;
-  }
-  h3{
-    color: #66bfbf;
-  }
-  h2{
-    color: #66bfbf;
-  }
+/*img:hover{
+    background-color:gold;
+} */
+hr{
+border-style: none;
+border-top-style: dotted;
+border-color:grey;
+border-width: 5px;
+width: 5%;
+}
+h1{
+color: #66bfbf;
+}
+h3{
+color: #66bfbf;
+}
+h2{
+color: #66bfbf;
+}
+.photo{
+background-color: none;
+}
+#Name{
+color: red;
+}
