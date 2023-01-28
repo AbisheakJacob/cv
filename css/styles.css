@@ -1,9 +1,28 @@
 body{
-    background-color: #eaf6f6;
-  }
+margin: 0;
+background-color: #eaf6f6;
+}
+
+
 /*img:hover{
     background-color:gold;
 } */
+
+.top_container{
+  background-color: azure;
+}
+
+.second_container{
+  background-color: antiquewhite;
+  padding: 20px;
+}
+
+.third_container{
+  background-color: beige;
+  padding: 20px;
+  margin: 10px;
+}
+
 hr{
 border-style: none;
 border-top-style: dotted;
@@ -12,6 +31,7 @@ border-width: 5px;
 width: 5%;
 }
 h1{
+margin-top: 0;
 color: #66bfbf;
 }
 h3{
@@ -24,5 +44,9 @@ color: #66bfbf;
 background-color: none;
 }
 #Name{
-color: red;
+color: #66bfbf;
+}
+.bold{
+  font-weight: bold;
+  text-decoration: underline;
 }
