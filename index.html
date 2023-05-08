@@ -19,6 +19,9 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
 
     <!-- Personal CSS Files -->
     <link rel="stylesheet" href="css/styles.css" />
@@ -33,13 +36,9 @@
   </head>
 
   <body>
-    <header>
-      <!-- The Note for visiting the old site -->
-      <div class="container-fluid bg-danger text-center">
-        <p>
-          This site is under construction. Please visit the previous site here.
-          <a href="index_old.html">Old Site</a>
-        </p>
+
+    <!-- Header -->
+    <header class="fixed-top">
       </div>
       <!-- Initial Header Navbar -->
       <div class="container-fluid">
@@ -113,25 +112,21 @@
         </nav>
       </div>
     </header>
-    <main>
-      <div class="container-fluid text-center">
-        <div class="row">
-          <div class="col-lg-3"></div>
-          <div class="col-lg-3">
-            <img
-              src="resources/images/jacob.png"
-              alt="Abisheak Jacob J"
-              height="350"
-              width="350"
-            />
+
+    <main class="page cv-page">
+
+      <!-- Personal Information and Introduction Section -->
+      <section class="cv-block block-intro border-bottom">
+        <div class="container-fluid">
+          <div class="avatar">
+            <img class="img-fluid rounded-circle" src="resources/images/jacob.png" alt="Abisheak Jacob J">
           </div>
-          <div class="container col-lg-3 container-padding text-center">
-            <h1>Abisheak Jacob J</h1>
+          <h1>Abisheak Jacob J</h1>
             <p>
               <em
                 >Student at
-                <strong
-                  ><a href="http://www.jagsom.com/" target="_blank"
+                <strong 
+                  ><a href="http://www.jagsom.com/" style="color:blue" target="_blank"
                     >Jagdish Sheth School of Management</a
                   ></strong
                 ></em
@@ -147,160 +142,219 @@
             <button type="button" class="btn btn-outline-dark">
               Contact Me
             </button>
-          </div>
-          <div class="col-lg-3"></div>
         </div>
+      </section>
+      
+      <!-- Featured Projects Section -->
+      <section class="cv-block info">
+        <div class="article-list">
+          <div class="container-fluid">
+              <div class="intro">
+                  <h2 class="text-center">Featured Projects</h2>
+                  <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
+              </div>
+              <div class="row articles">
+                  <div class="col-sm-6 col-md-4 pritem"><a href="#"><img class="crop" src="resources/images/abisheak_jacob_j_arima_kousei_your_lie_in_april.jpg"></a>
+                      <h3 class="name">Article Title</h3>
+                      <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a href="#" class="action"><i class="fa fa-arrow-circle-right"></i></a>
+                  </div>
+                  <div
+                      class="col-sm-6 col-md-4 pritem"><a href="#"><img class="crop" src="resources/images/abisheak_jacob_j_beyond_love.jpg"></a>
+                      <h3 class="name">Article Title</h3>
+                      <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a href="#" class="action"><i class="fa fa-arrow-circle-right"></i></a>
+                  </div>
+                  <div
+                      class="col-sm-6 col-md-4 pritem"><a href="#"><img class="crop" src="resources/images/abisheak_jacob_j_the_eye.jpg"></a>
+                      <h3 class="name">Article Title</h3>
+                      <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a href="#" class="action"><i class="fa fa-arrow-circle-right"></i></a>
+                  </div>
+              </div>
+          </div>
       </div>
+      </section>
+
+      <!-- Experiences section -->
+      <section class="cv-block info">
+        <div class="container-fluid">
+          <div class="work-experience group" id="work-experience">
+            <h2 class="text-center">Experiences</h2>
+            <div class="item">
+              <div class="row">
+                <div class="col-md-6">
+                  <h3>Summer Intern</h3>
+                  <h4 class="organization"><a href="https://www.saint-gobain.co.in/", style="color: white", target="_blank">Saint Gobain India Pvt. Ltd.</a></h4>
+                </div>
+                <div class="col-md-6">
+                  <time class="period">Jun 2019 - Jul 2019</time>
+                </div>
+              </div>
+              <p class="text-muted">Arranged meetings with architects, familiarized them with our services, analyzed market trends at various locations and evaluated the sales of different products.</p>
+            </div>
+            <div class="item">
+              <div class="row">
+                <div class="col-md-6">
+                  <h3>Captain</h3>
+                  <h4 class="organization">Steadfasters</h4>
+                </div>
+                <div class="col-md-6">
+                  <time class="period">Feb 2017 - Nov 2019</time>
+                </div>
+              </div>
+              <p class="text-muted">A formula car racing team with 25 members, fabricating the formula car from and scratch and participated in national racing event FFS.</p>
+            </div>
+            <div class="item">
+              <div class="row">
+                <div class="col-md-6">
+                  <h3>Office Bearer</h3>
+                  <h4 class="organization "><a href="https://saeindia.org/" style="color:white", target="_blank">SAE India</a></h4>
+                </div>
+                <div class="col-md-6">
+                  <time class="period">Jul 2018 - Mar 2020</time>
+                </div>
+              </div>
+              <p class="text-muted">A Collegiate chapter of the organization with over 25 Office Bearers and over 100 members.</p>
+            </div>
+          </div>
+          </div>
+      </section>
+
+      <!-- Skills Section -->
       <section>
-        <div class="album py-5 bg-body-tertiary">
-          <div class="container">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-              <div class="col">
-                <div class="card shadow-sm">
-                  <svg
-                    class="bd-placeholder-img card-img-top"
-                    width="100%"
-                    height="225"
-                    xmlns="http://www.w3.org/2000/svg"
-                    role="img"
-                    aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false"
-                  >
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c" />
-                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                      Thumbnail
-                    </text>
-                  </svg>
-                  <div class="card-body">
-                    <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
-                    </p>
-                    <div
-                      class="d-flex justify-content-between align-items-center"
-                    >
-                      <div class="btn-group">
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
-                        >
-                          View
-                        </button>
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
-                        >
-                          Edit
-                        </button>
-                      </div>
-                      <small class="text-body-secondary">9 mins</small>
-                    </div>
+        <div class="features-boxed">
+          <div class="container-fluid">
+              <div class="intro">
+                  <h2 class="text-center">Technical Skills</h2>
+                  <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae.</p>
+              </div>
+              <div class="row justify-content-center features">
+                  <div class="col-sm-6 col-md-5 col-lg-4 item">
+                      <div class="box"><i class="fa fa-map-marker icon"></i>
+                          <h3 class="name">Python</h3>
+                          <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="#" class="learn-more">Learn more »</a></div>
                   </div>
+                  <div class="col-sm-6 col-md-5 col-lg-4 item">
+                      <div class="box"><i class="fa fa-clock-o icon"></i>
+                          <h3 class="name">Database Management</h3>
+                          <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="#" class="learn-more">Learn more »</a></div>
+                  </div>
+                  <div class="col-sm-6 col-md-5 col-lg-4 item">
+                      <div class="box"><i class="fa fa-list-alt icon"></i>
+                          <h3 class="name">Tableau</h3>
+                          <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="#" class="learn-more">Learn more »</a></div>
+                  </div>
+                  <div class="col-sm-6 col-md-5 col-lg-4 item">
+                      <div class="box"><i class="fa fa-leaf icon"></i>
+                          <h3 class="name">MS-Excel</h3>
+                          <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="#" class="learn-more">Learn more »</a></div>
+                  </div>
+                  <div class="col-sm-6 col-md-5 col-lg-4 item">
+                      <div class="box"><i class="fa fa-plane icon"></i>
+                          <h3 class="name">SPSS</h3>
+                          <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="#" class="learn-more">Learn more »</a></div>
+                  </div>
+                  <div class="col-sm-6 col-md-5 col-lg-4 item">
+                      <div class="box"><i class="fa fa-phone icon"></i>
+                          <h3 class="name">HTML-CSS</h3>
+                          <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="#" class="learn-more">Learn more »</a></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </section>
+
+      <!-- Education Section -->
+      <section class="cv-block info">
+        <div class="container-fluid">
+          <div class="education group" id="education">
+            <h2 class="text-center">Education</h2>
+            <div class="item">
+              <div class="row">
+                <div class="col-md-6">
+                  <h3>Post Graduate</h3>
+                  <h4 class="organization">Jagdish Sheth School of Management, Bangalore</h4>
+                </div>
+                <div class="col-md-6">
+                  <time class="period">09/2005 - 05/2010</time>
                 </div>
               </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <svg
-                    class="bd-placeholder-img card-img-top"
-                    width="100%"
-                    height="225"
-                    xmlns="http://www.w3.org/2000/svg"
-                    role="img"
-                    aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false"
-                  >
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c" />
-                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                      Thumbnail
-                    </text>
-                  </svg>
-                  <div class="card-body">
-                    <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
-                    </p>
-                    <div
-                      class="d-flex justify-content-between align-items-center"
-                    >
-                      <div class="btn-group">
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
-                        >
-                          View
-                        </button>
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
-                        >
-                          Edit
-                        </button>
-                      </div>
-                      <small class="text-body-secondary">9 mins</small>
-                    </div>
-                  </div>
+              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies, feugiat est sed, efficitur nunc, vivamus vel accumsan dui.</p>
+            </div>
+            <div class="item">
+              <div class="row">
+                <div class="col-md-6">
+                  <h3>Under Graduate</h3>
+                  <h4 class="organization">Mepco Schlenk Engineering College, Sivakasi</h4>
+                </div>
+                <div class="col-md-6">
+                  <time class="period">09/2005 - 05/2010</time>
                 </div>
               </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <svg
-                    class="bd-placeholder-img card-img-top"
-                    width="100%"
-                    height="225"
-                    xmlns="http://www.w3.org/2000/svg"
-                    role="img"
-                    aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false"
-                  >
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c" />
-                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                      Thumbnail
-                    </text>
-                  </svg>
-                  <div class="card-body">
-                    <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
-                    </p>
-                    <div
-                      class="d-flex justify-content-between align-items-center"
-                    >
-                      <div class="btn-group">
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
-                        >
-                          View
-                        </button>
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-outline-secondary"
-                        >
-                          Edit
-                        </button>
-                      </div>
-                      <small class="text-body-secondary">9 mins</small>
-                    </div>
-                  </div>
+              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies, feugiat est sed, efficitur nunc, vivamus vel accumsan dui.</p>
+            </div>
+            <div class="item">
+              <div class="row">
+                <div class="col-md-6">
+                  <h3>Higher Secondary School</h3>
+                  <h4 class="organization">Christuraja Matriculation Higher Secondary School</h4>
+                </div>
+                <div class="col-md-6">
+                  <time class="period">09/2005 - 05/2010</time>
                 </div>
               </div>
+              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies, feugiat est sed, efficitur nunc, vivamus vel accumsan dui.</p>
+            </div>
+            <div class="item">
+              <div class="row">
+                <div class="col-md-6">
+                  <h3>Secondary School</h3>
+                  <h4 class="organization">Christuraja Matriculation Higher Secondary School</h4>
+                </div>
+                <div class="col-md-6">
+                  <time class="period">09/2010 - 06/2015</time>
+                </div>
+              </div>
+              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies, feugiat est sed, efficitur nunc, vivamus vel accumsan dui.</p>
             </div>
           </div>
         </div>
       </section>
+      
     </main>
+    
+    <!-- Footer -->
     <footer>
       <!-- place footer here -->
+      <div class="footer-dark">
+      <div class="container-div">
+        <div class="row">
+            <div class="col-sm-6 col-md-3 ftitem">
+                <h3>Personal</h3>
+                <ul>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Certifications</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-3 ftitem">
+                <h3>About</h3>
+                <ul>
+                    <li><a href="#">Certifications</a></li>
+                    <li><a href="#">Hobbies</a></li>
+                    <li><a href="#">Skills</a></li>
+                </ul>
+            </div>
+            <div class="col-md-6 ftitem text">
+                <h3>To move:</h3>
+                <p>"For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life" - John 3:16 </p>
+            </div>
+            <div class="col ftitem social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+        </div>
+        <p class="copyright">Abisheak Jacob J</p>
+    </div>
+  </div>
     </footer>
+    
+
     <!-- Bootstrap JavaScript Libraries -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
