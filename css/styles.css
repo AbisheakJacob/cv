@@ -315,6 +315,7 @@ body {
   font-size: 15px;
   margin-top: 15px;
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 /* footer block */
@@ -465,6 +466,7 @@ body {
   font-size: 14px;
   margin-top: 15px;
   margin-bottom: 0;
+  text-align: justify;
 }
 
 .article-list .pritem .action {
