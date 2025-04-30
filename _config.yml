@@ -31,12 +31,6 @@ github_username:  abisheakjacob
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.27.0"
 plugins:
-  - jekyll-remote-theme
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
   - jekyll-include-cache
 
 
