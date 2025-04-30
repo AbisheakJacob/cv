@@ -29,7 +29,7 @@ url: "https://abisheakjacob.github.io/cv/" # the base hostname & protocol for yo
 github_username:  abisheakjacob
 
 # Build settings
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+remote_theme: "mmistakes/minimal-mistakes@4.27.0"
 plugins:
   - jekyll-remote-theme
   - jekyll-paginate
@@ -39,7 +39,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-  
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
