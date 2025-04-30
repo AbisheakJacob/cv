@@ -9,7 +9,7 @@ source "https://rubygems.org"
 # # This will help ensure the proper Jekyll version is running.
 # # Happy Jekylling!
 gem "jekyll", "~> 4.4.1"
-# gem "minimal-mistakes-jekyll"
+gem "minimal-mistakes-jekyll"
 gem "jekyll-remote-theme"
 group :jekyll_plugins do
   gem "jekyll-paginate"
