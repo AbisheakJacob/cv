@@ -1,4 +1,4 @@
-# source "https://rubygems.org"
+source "https://rubygems.org"
 
 # # Hello! This is where you manage which Jekyll version is used to run.
 # # When you want to use a different version, change it below, save the
@@ -8,18 +8,18 @@
 # #
 # # This will help ensure the proper Jekyll version is running.
 # # Happy Jekylling!
-# gem "jekyll", "~> 4.4.1"
+gem "jekyll", "~> 4.4.1"
 # gem "minimal-mistakes-jekyll"
-# gem "jekyll-remote-theme"
-# group :jekyll_plugins do
-#   gem "jekyll-paginate"
-#   gem "jekyll-sitemap"
-#   gem "jekyll-gist"
-#   gem "jekyll-feed"
-#   gem "jemoji"
-#   gem "jekyll-include-cache"
-#   gem "jekyll-algolia"
-# end
+gem "jekyll-remote-theme"
+group :jekyll_plugins do
+  gem "jekyll-paginate"
+  gem "jekyll-sitemap"
+  gem "jekyll-gist"
+  gem "jekyll-feed"
+  gem "jemoji"
+  gem "jekyll-include-cache"
+  gem "jekyll-algolia"
+end
 
 # # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # # and associated library.
@@ -34,10 +34,4 @@
 # # Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem
 # # do not have a Java counterpart.
 # gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
-
-
-source "https://rubygems.org"
-
-gem "github-pages", group: :jekyll_plugins
-gem "jekyll-include-cache", group: :jekyll_plugins
 

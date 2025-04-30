@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Abisheak Jacob 4.27 bundled
+title: Abisheak Jacob 4.27 remote theme
 email: abisheakjacob0032@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -31,6 +31,12 @@ github_username:  abisheakjacob
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.27.0"
 plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
   - jekyll-include-cache
 
 
