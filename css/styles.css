@@ -1,9 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400");
 
+
+
 body {
   font-family: 'Lato', sans-serif;
 }
 
+.banner{
+  background-color: #e25b7d;
+}
+.banner-block {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
 .page-navbar.navbar {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
